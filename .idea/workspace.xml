@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4089fad4-324a-4727-8eb9-46f31a633b2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tddKata/StringCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tddKata/StringCalculatorTest.java" afterDir="false" />
+    <list default="true" id="4089fad4-324a-4727-8eb9-46f31a633b2d" name="Changes" comment="added fuctionalities upto comma separated values">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tddKata/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tddKata/StringCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tddKata/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tddKata/StringCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +62,23 @@
       <recent name="tddKata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTest.singleNumberReturnsItselfAsSum">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest.SumOfNumbersSeparatedByNextLine">
+    <configuration name="StringCalculatorTest.SumOfAnyNumberOfNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tddKata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tddKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tddKata" />
+      <option name="MAIN_CLASS_NAME" value="tddKata.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="SumOfAnyNumberOfNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringCalculatorTest.SumOfCommaSeparatedNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tddKata" />
       <extension name="coverage">
@@ -83,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCalculatorTest.emptyStringShouldReturnZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTest.SumOfNumbersSeparatedByNextLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tddKata" />
       <extension name="coverage">
         <pattern>
@@ -93,7 +105,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tddKata" />
       <option name="MAIN_CLASS_NAME" value="tddKata.StringCalculatorTest" />
-      <option name="METHOD_NAME" value="emptyStringShouldReturnZero" />
+      <option name="METHOD_NAME" value="SumOfNumbersSeparatedByNextLine" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,11 +127,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tddKata in tddKata" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tddKata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tddKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tddKata" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCalculatorTest.SumOfNumbersSeparatedByNextLine" />
+        <item itemvalue="JUnit.tddKata in tddKata" />
+        <item itemvalue="JUnit.StringCalculatorTest.SumOfAnyNumberOfNumbers" />
         <item itemvalue="JUnit.StringCalculatorTest.singleNumberReturnsItselfAsSum" />
         <item itemvalue="JUnit.StringCalculatorTest.SumOfCommaSeparatedNumbers" />
-        <item itemvalue="JUnit.StringCalculatorTest.emptyStringShouldReturnZero" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +160,18 @@
       <option name="presentableId" value="Default" />
       <updated>1692120129414</updated>
     </task>
+    <task id="LOCAL-00001" summary="added fuctionalities upto comma separated values">
+      <created>1692122611644</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692122611644</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added fuctionalities upto comma separated values" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fuctionalities upto comma separated values" />
   </component>
 </project>
